@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+ 
+RewriteEngine on
+ 
+RewriteCond %{REQUEST_FILENAME} !-d
+ 
+RewriteCond %{REQUEST_FILENAME}.php -f
+ 
+RewriteRule ^(.*)$ $1.php
+
+ErrorDocument 404 /vero/error/404.php
+ErrorDocument 403 /vero/error/403.php
+
+RewriteRule ^$ auth/login.php [L]
+ 
+</IfModule>

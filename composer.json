@@ -1,0 +1,8 @@
+{
+    "require": {
+      "pecee/simple-router": "^4.0",
+      "phpoffice/phpexcel": "*",
+      "phpoffice/phpspreadsheet": "*"
+    }
+}
+  

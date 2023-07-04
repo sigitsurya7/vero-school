@@ -1,0 +1,1 @@
+<?php $UIDCard='B96EBF6D'; echo $UIDCard; ?>
